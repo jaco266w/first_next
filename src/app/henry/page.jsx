@@ -27,6 +27,9 @@ export default async function Henry() {
             width={image.width}
             height={image.height}
             priority={true} // disables lazy loading
+            sizes="(max-width: 768px) 100vw,
+                    (max-width: 1200px) 50vw,
+                    400px"
         />
         </main>
     )
